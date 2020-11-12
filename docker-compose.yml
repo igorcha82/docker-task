@@ -23,7 +23,7 @@ services:
     image: mongo
     restart: always
     ports:
-      - 27017:27017
+      - 8082:8082
     env_file:
       - mongoexecute.env
 
